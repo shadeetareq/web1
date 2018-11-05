@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="regstyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body    class=" container  " style="background: #333" >
+	<div  class="row ">
+		<div class="form 	 col-md-6">
+			<form  action="addp.php" method="post" style="text-align :center ">
+				<img src="reg.png" class="icon">
+				
+				<div class="form ">
+				<p>username  :</p><input  type="text" name="name" placeholder=" name">
+				<p>password  :</p><input  type="text" name="password" placeholder="password">
+				<p >email  address  :</p><input " type="text" name="email" placeholder="enter your mail address "> 	<p>phone number  :</p><input type="text" name="phone" placeholder=" phone number">
+
+  				<p>address :</p><input type="text" name="address" placeholder=" address">  			<!--	<p>type :<input type="text" name="type" placeholder=" phone number"></p> -->
+  				</div>
+  				<div>
+  					<input type="radio" name="type" value="owner">work owner
+  					<input type="radio" name="type" value="normal">normal user 
+  				</div>
+  				<input  class="subbutton" type="submit" name="submit" value="regitser">
+  				<div class="forgot">
+  					<a href="restpass.html">forgot your password </a>
+  				</div>
+  				<div class="login">
+  					 <p>already have account <a href="login.html"> log in </a></p>
+
+  				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>
